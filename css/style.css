@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background-color: #e0e0e0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.main{
+    padding-top: 40px;
+    width: 900px;
+    height: 575px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.nav-logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-link{
+    display: flex;
+}
+.nav-link a{
+    text-decoration: none;
+    padding: 0px 15px;
+    color: #333;
+    
+}
+.noti{
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #000;
+    font-size: 12px;
+    position: relative;
+    margin-left: 63px;
+    margin-top: -25px;
+}
+.nav-search i{
+    padding: 0px 5px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+.main-chair-img img{
+    width: 370px;
+}
+
+.cart{
+    width: 250px;
+    margin-top: 60px;
+}
+.cart-review{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+.cart-review span{
+    color: #000;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.cart-titile{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.cart-text{
+    margin-bottom: 10px;
+}
+.cart-text p{
+    color: #777;
+    margin-bottom: 7px
+}
+.cart-text span{
+    color: #000;
+    font-weight: 400;
+
+}
+.add-to-cart{
+    display: flex;
+    align-items: center;
+}
+.cart-heart i{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(215, 215, 215);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    color: #000;
+    
+}
+
+.cart-btn{
+    display: flex;
+    background-color: rgb(52, 52, 52);
+    width: 150px;
+    padding: 7px 15px;
+    border-radius: 15px;
+    transition: .4s;
+}
+.cart-btn:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+    background-color: rgb(12, 12, 12);
+}
+.cart-btn a{
+    text-decoration: none;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+
+
+}
+.cart-btn i{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(80, 80, 80);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+.menu{
+    width: 120px;
+    height: 180px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius:10px;
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  -6.7px -6.7px 5.3px rgba(0, 0, 0, 0.028),
+  -12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+;
+
+    overflow: hidden;
+    margin-right: 35px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    transition: .4s;
+}
+.menu:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+.menu-img img{
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+}
+.menu-text{
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.menu-text p{
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+.menu-text span{
+    font-size: 14x;
+    color: #333;
+    
+}
+.rating{
+    font-size: 8px;
+    margin-left: 5px;
+    color: goldenrod;
+    display: flex;
+}
+.rating i{
+    padding: 0px 2px;
+}
+.heart{
+    font-size: 13px;
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: -10px;
+}
+.company-logo{
+    position: relative;
+    margin-left: 20px;
+    margin-top: -120px;
+}
+.company-logo img{
+    width: 170px;
+
+}
+.last-img{
+    position: relative;
+    top: -20px;
+}
